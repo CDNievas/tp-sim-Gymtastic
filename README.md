@@ -9,5 +9,5 @@ Creado por [@CDNievas](https://www.github.com/CDNievas), @, @
 ```bash
 pip3 install -r requests.txt
 pytest
-python3 main.py
+python3 app.py
 ```
