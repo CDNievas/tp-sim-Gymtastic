@@ -90,3 +90,13 @@ def test_case_9():
 
     assert pr == 20
     assert ppap_list == [50, 50].sort()
+
+def test_case_10():
+
+    simu = Simulacion(3, 10, 60, False, lambda x: 5, lambda x: 60)
+    simu.start()
+    pr, profesores = simu.getResultados()
+    ppap_list = list(map(lambda x: x.getPPAP(), profesores)).sort()
+
+    assert pr == 0
+    assert ppap_list == [0, 23.076923076923077, 76.92307692307693].sort()
