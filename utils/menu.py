@@ -8,7 +8,7 @@ menuQuestions = [{
 },{
     "type":"input",
     "name":"CAP",
-    "message":"Cantidad alumnos por profesor: ",
+    "message":"Cantidad de alumnos por profesor: ",
     "filter": lambda val: int(val)
 },{
     "type":"input",
