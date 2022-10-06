@@ -9,7 +9,6 @@ class Profesor:
         self._hv = hv
         self.ntpa = 0
         self.ppap = 0
-        self.index = 0
         self.tps = []
 
         self.ppcapa = 0
@@ -45,6 +44,10 @@ class Profesor:
     def getIndex(self) -> int:
         return self.index
 
+    def getNTPA(self) -> int:
+        return self.ntpa
+
     def getPPAP(self) -> float:
         return self.ppap
+
 

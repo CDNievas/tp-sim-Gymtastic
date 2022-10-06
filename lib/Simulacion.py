@@ -90,7 +90,6 @@ class Simulacion():
 
         for profesor in self.profesores.getList():
             index = profesor.getIndex()
+            ntpa = profesor.getNTPA()
             ppap = profesor.getPPAP()
-            print("Profesor %s - Porcentaje de rentabilidad: %s%%" % (index, ppap))
-
-
+            print("Profesor %s - Alumnos atendidos: %s/%s (%s)%%" % (index, ntpa, self.ntp, ppap))
