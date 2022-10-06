@@ -1,4 +1,5 @@
 pyfiglet
+numpy
 colorama
 termcolor
 pytest
